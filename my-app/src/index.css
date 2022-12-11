@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.card-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-ability {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.card-attacks {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.card-attacks li {
+  margin-bottom: 5px;
+}
+
+.card-ability {
+  margin-bottom: 10px;
+}
+
+.card-ability-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: deeppink  
+}
+
+.card-ability-text {
+  margin-bottom: 10px;
+}
+
+.card-ability-type {
+  font-style: italic;
+  color: black;
+  font-size: 14px;
+}
